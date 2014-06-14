@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BD22BAE194351E700A4AFA8 /* CDpartment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BD22BAC194351E700A4AFA8 /* CDpartment.cpp */; };
+		5BD22BB1194352B300A4AFA8 /* CSarary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BD22BAF194352B300A4AFA8 /* CSarary.cpp */; };
 		D31F9EAC194345CF00906244 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D31F9EAB194345CF00906244 /* main.cpp */; };
+		D31F9EB6194349AE00906244 /* CStaff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D31F9EB5194349AE00906244 /* CStaff.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5BD22BAC194351E700A4AFA8 /* CDpartment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CDpartment.cpp; sourceTree = "<group>"; };
+		5BD22BAD194351E700A4AFA8 /* CDpartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDpartment.h; sourceTree = "<group>"; };
+		5BD22BAF194352B300A4AFA8 /* CSarary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CSarary.cpp; sourceTree = "<group>"; };
+		5BD22BB0194352B300A4AFA8 /* CSarary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSarary.h; sourceTree = "<group>"; };
 		D31F9EA8194345CF00906244 /* salarymanagesystem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = salarymanagesystem; sourceTree = BUILT_PRODUCTS_DIR; };
 		D31F9EAB194345CF00906244 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D31F9EB21943463600906244 /* CStaff.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CStaff.h; sourceTree = "<group>"; };
+		D31F9EB5194349AE00906244 /* CStaff.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CStaff.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				D31F9EAB194345CF00906244 /* main.cpp */,
+				D31F9EB21943463600906244 /* CStaff.h */,
+				D31F9EB5194349AE00906244 /* CStaff.cpp */,
+				5BD22BAC194351E700A4AFA8 /* CDpartment.cpp */,
+				5BD22BAD194351E700A4AFA8 /* CDpartment.h */,
+				5BD22BAF194352B300A4AFA8 /* CSarary.cpp */,
+				5BD22BB0194352B300A4AFA8 /* CSarary.h */,
 			);
 			path = salarymanagesystem;
 			sourceTree = "<group>";
@@ -118,6 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D31F9EB6194349AE00906244 /* CStaff.cpp in Sources */,
+				5BD22BB1194352B300A4AFA8 /* CSarary.cpp in Sources */,
+				5BD22BAE194351E700A4AFA8 /* CDpartment.cpp in Sources */,
 				D31F9EAC194345CF00906244 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +250,7 @@
 				D31F9EB1194345CF00906244 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
